@@ -1,0 +1,77 @@
+body{
+    /*color de fondo */
+    background-color: rgb(247, 233, 220);
+
+
+}
+
+h3{
+    color: rgb(136, 80, 37);
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+
+
+
+
+
+p{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+/*Para modificar un elemento en especifico css asignamos una clase (class) y se llama con el punto . */
+.principal {
+    width: 800px;
+    height: 300px;
+}
+
+/*Editar div del menu*/
+.menu {
+
+   background-color: rgb(221, 173, 129); 
+   /*Div flexible para moverse con los elementos dentro de el*/
+   display: flex;
+   /*En columna*/
+   flex-direction: column-reverse;
+   /*Aliena los items en el centrp*/
+   align-items: center;
+   
+}
+
+a{
+    font-family: "Nanum Gothic", sans-serif;
+    text-decoration: none;
+    color: black;
+    /*anclas como botones*/
+    background-color: white;
+    /*padding es margen interno*/
+    padding: 15px;
+    border-radius: 70px;
+    /*separarlos*/
+    margin-bottom: 5px;
+
+}
+
+a:hover{
+    background-color: rgb(220, 215, 215);
+}
+
+.logo-cafetera{
+    width: 25px;
+    /*margen de lado derecho e izq*/
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+}
